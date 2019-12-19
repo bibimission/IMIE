@@ -1,0 +1,8 @@
+C:\Users\guillaume\source\repos\Budget\Budget.Models\bin\Debug\netstandard2.0\Budget.Models.deps.json
+C:\Users\guillaume\source\repos\Budget\Budget.Models\bin\Debug\netstandard2.0\Budget.Models.dll
+C:\Users\guillaume\source\repos\Budget\Budget.Models\obj\Debug\netstandard2.0\Budget.Models.csprojAssemblyReference.cache
+C:\Users\guillaume\source\repos\Budget\Budget.Models\obj\Debug\netstandard2.0\Budget.Models.AssemblyInfoInputs.cache
+C:\Users\guillaume\source\repos\Budget\Budget.Models\obj\Debug\netstandard2.0\Budget.Models.AssemblyInfo.cs
+C:\Users\guillaume\source\repos\Budget\Budget.Models\bin\Debug\netstandard2.0\Budget.Models.pdb
+C:\Users\guillaume\source\repos\Budget\Budget.Models\obj\Debug\netstandard2.0\Budget.Models.dll
+C:\Users\guillaume\source\repos\Budget\Budget.Models\obj\Debug\netstandard2.0\Budget.Models.pdb
