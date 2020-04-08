@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+		<meta charset="utf8">
+	</head>
+	<body>
+		<header style="height:10%">
+			<div class="col-12 text-center">
+				<h1><span class="lang-fr">Calculer son empreinte numérique journalière</span><span class="lang-en">Calculate your daily pollution</span></h1>
+			</div>
+		</header>
+		<div class="container-fluid wrapper" style="height:86%">
+			<div class="row content" style="height:100%">
+				<div class="col-9" style="height:100%" id="formBlock">
+					<div class="col-12 text-center" style="height:100%">
+						<div id="screen" class="col-12 text-center">
+							<div class="d-flex align-content-around flex-wrap" id="appList"></div>
+						</div>
+					</div>
+				</div>
+				<div class="col-3" id="formValidBlock">
+					<button class="btn btn-bubble" id="formValidButton">Valider</button>
+				</div>
+				<div class="col-6"id="statBlock">
+					<div class="row text-center whiteDiv">
+						<div class="col-12">
+							<h2>Emissions :</h2>
+							<div class="row">
+								<canvas id="myChart" style="width:60%"></canvas>
+							</div>
+						</div>
+						<div class="col-12 text-center onIt">
+							<div>
+								<div id="total"></div>
+								<h2>Soit :</h2>
+								<div><span id="carValue"></span> Km de voiture</div>
+								<div><span id="lightValue"></span> Heures d'éclairage d'une ampoule</div>
+								<div><span id="phoneValue"></span> Rechargements complets de téléphones</div>
+							</div>
+						</div>
+					</div>
+					<div class="text-center">
+						<button class="btn btn-danger" id="cancelButton">Refaire le test</button>
+					</div>
+					
+				</div>
+				<div class="col-6" id="tipsBlock">
+					<div class="whiteDiv">
+						<h2 class="text-center">Comment réduire sa consommation ?</h2>
+						<div id="tipList">
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<footer class="footer text-center" style="height:4%">
+			<div class="container">Sources :
+				<a href="https://www.fournisseurs-electricite.com/guides/consommation/television"> Consommation d'une télévision</a>
+				<a href="https://theshiftproject.org/carbonalyser-extension-navigateur/">Emissions CO2 d'un transfert</a>
+				<a href="https://www.greenit.fr/2009/04/24/combien-de-co2-degage-un-1-kwh-electrique/">Kwh en CO2</a>
+				<a href="https://www.deezer.com/fr/offers/hifi">Poids des fichiers musicaux</a>
+				<a href="https://www.ginjfo.com/espace-environnement/green-it/science-et-technologie/telephone-portable-1-minute-de-conversation-cest-57-grammes-de-co2-20100615">Consommation d'un telephone</a>
+			</div>
+		</footer>
+		
+		<div class="modal hide fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+		  <div class="modal-dialog" role="document">
+			<div class="modal-content" id="modalContent">
+				<div class="modal-header">
+					<h5 class="modal-title" id="modalTitle">A propos</h5>
+					<button type="button" class="close" data-dismiss="modal" href="#modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<div id="formulaire">
+						<label for="input" id="label">Label bleue</label>
+						<input type="number" id="input" step="0.01">
+					</div>
+					<div id="modalBody">
+						
+					</div>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-dismiss="modal" href="#modal" id="okButton">Ok</button>
+				</div>
+			</div>
+		  </div>
+		</div>
+		
+		<template id="appIconTemplate">
+			<div class="col-2 iconDiv" id="iconDiv" data-toggle="modal" data-target="#modal">
+				<div class="innerIconDiv" id="innerIconDiv">
+					<img id="iconImage" class="iconImage">
+				</div>
+				<div id="formActual" class="formActual"></div>
+			</div>
+		</template>
+		
+		<template id="tipTemplate">
+			<div class="row tipDiv" id="tipDiv">
+				<div class="tipIconDiv col-1" id="tipIconDiv">
+					<img id="iconImage" class="iconImage">
+				</div>
+				<div class="tipIconDiv col-11" id="tipIconDiv">
+					<div id="tiptext" class="tipText">
+				</div>
+			</div>
+		</template>
+	
+	
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.min.js"></script>  
+		<script src="lappli.js"></script>
+	
+		
+		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+	</body>
+
+</html>

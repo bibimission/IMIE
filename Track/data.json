@@ -1,0 +1,11 @@
+{
+	"data":[
+		{
+			"name" : "Google",
+			"image" :"google",
+			"color" : "#FFFFFF",
+			"value" : 12,
+			"content" : "<div>Swag</div>"
+		}
+	]
+}

@@ -1,0 +1,174 @@
+html, body {
+    height: 100%;
+}
+body {
+	min-height : 100%;
+	min-width : 100%;
+	overflow-y: hidden;
+	overflow-x: hidden;
+	margin: 0;
+	background-image : url('images/back.jpg');
+	background-size : cover;
+ }
+ .container-fluid{
+	height:92%;
+}
+
+.colorful {
+  background:
+    -webkit-linear-gradient(315deg, hsla(201.54, 99.5%, 45.01%, 1) 0%, hsla(201.54, 99.5%, 45.01%, 0) 70%),
+    -webkit-linear-gradient(65deg, hsla(140.38, 91.46%, 40.36%, 1) 10%, hsla(140.38, 91.46%, 40.36%, 0) 80%),
+    -webkit-linear-gradient(135deg, hsla(237.74, 98.66%, 47.17%, 1) 15%, hsla(237.74, 98.66%, 47.17%, 0) 80%),
+    -webkit-linear-gradient(205deg, hsla(159.45, 99.12%, 49.7%, 1) 100%, hsla(159.45, 99.12%, 49.7%, 0) 70%);
+  background:
+    linear-gradient(135deg, hsla(201.54, 99.5%, 45.01%, 1) 0%, hsla(201.54, 99.5%, 45.01%, 0) 70%),
+    linear-gradient(25deg, hsla(140.38, 91.46%, 40.36%, 1) 10%, hsla(140.38, 91.46%, 40.36%, 0) 80%),
+    linear-gradient(315deg, hsla(237.74, 98.66%, 47.17%, 1) 15%, hsla(237.74, 98.66%, 47.17%, 0) 80%),
+    linear-gradient(245deg, hsla(159.45, 99.12%, 49.7%, 1) 100%, hsla(159.45, 99.12%, 49.7%, 0) 70%);
+  }
+  
+
+#screen{
+	height:100%;
+	width:100%;
+	border: 5vh solid black;
+	border-radius: 5vh;
+	background-image : url('images/backGround.jpg');
+	background-size : cover;
+}
+#appList{
+	height:100%;
+	width:100%;
+}
+
+.iconDiv{
+	padding: 3%;
+	margin: 1%;
+	text-align:center;
+}
+.innerIconDiv{
+	border-radius : 25%;
+	box-shadow: -1px 2px 10px 3px rgba(0, 0, 0, 0.3) inset;
+	width:100%;
+	height:100%;
+	display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+.iconImage{
+	width: 100%;
+	position: relative;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+footer{
+	color :white;
+	background-color:black;
+}
+
+.formActual{
+	position : absolute;
+	z-index : 10;
+	font-size:2em;
+	color: white;
+	background-color: #fc7703;
+	border-radius:50%;
+	padding: 0.1em 0.5em;
+}
+
+#formValidBlock{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+.whiteDiv{
+	background-color: rgba(255,255,255,0.7);
+	margin:0% 2% 2% 2%;
+	padding:2% 2% 2% 2%;
+	border: 2px solid white;
+	border-radius:5%;
+	position: relative;
+}
+
+.onIt{
+	position : absolute;
+	z-index : 10;
+	font-size:1.5em;
+	display: flex;
+	justify-content: center;
+	bottom:10%;;
+}
+
+.btn-bubble {
+  position: absolute;
+  background-color: #65f08a;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  color: #black;
+  text-decoration: none;
+  font-size: 3em;
+  display: inline-block;
+  text-transform: uppercase;
+  padding: 0.5em 2em;
+  border: 2px solid #32a852;
+  -webkit-transition: 0.02s 0.2s cubic-bezier(0.1, 0, 0.1, 1);
+  transition: 0.02s 0.2s cubic-bezier(0.1, 0, 0.1, 1);
+}
+.btn-bubble::before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 100%;
+  bottom: 0;
+  background: #32a852;
+  -webkit-transition: 0.3s 0.2s cubic-bezier(0.1, 0, 0.1, 1), left 0.3s cubic-bezier(0.1, 0, 0.1, 1);
+  transition: 0.3s 0.2s cubic-bezier(0.1, 0, 0.1, 1), left 0.3s cubic-bezier(0.1, 0, 0.1, 1);
+  z-index: -1;
+}
+.btn-bubble::after {
+  content: "";
+  display: inline-block;
+  background-image: url("https://image.flaticon.com/icons/png/128/109/109617.png");
+  position: absolute;
+  top: 0;
+  left: calc(100% - 3em);
+  right: 3em;
+  bottom: 0;
+  background-size: 1.5em;
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-transition: right 0.3s cubic-bezier(0.1, 0, 0.1, 1);
+  transition: right 0.3s cubic-bezier(0.1, 0, 0.1, 1);
+}
+.btn-bubble:hover {
+  padding: 0.5em 3.5em 0.5em 0.5em;
+}
+.btn-bubble:hover::before {
+  left: calc(100% - 3em);
+  right: 0;
+  -webkit-transition: 0.3s cubic-bezier(0.1, 0, 0.1, 1), left 0.3s 0.2s cubic-bezier(0.1, 0, 0.1, 1);
+  transition: 0.3s cubic-bezier(0.1, 0, 0.1, 1), left 0.3s 0.2s cubic-bezier(0.1, 0, 0.1, 1);
+}
+.btn-bubble:hover::after {
+  right: 0;
+  -webkit-transition: right 0.3s 0.2s cubic-bezier(0.1, 0, 0.1, 1);
+  transition: right 0.3s 0.2s cubic-bezier(0.1, 0, 0.1, 1);
+}
+
+#cancelButton{
+	font-size: 3em;
+	padding: 0.5em 2em;
+}
+
+
+
+  
