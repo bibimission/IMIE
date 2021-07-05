@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.guillaume.manounou"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="26" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <meta-data
+        android:name="android.support.VERSION"
+        android:value="26.0.0-alpha1" />
+
+    <application
+        android:name="com.android.tools.fd.runtime.BootstrapApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name="com.example.guillaume.manounou.AddEnfant" />
+        <activity
+            android:name="com.example.guillaume.manounou.ParentProfil"
+            android:label="Profil Parent" />
+        <activity android:name="com.example.guillaume.manounou.MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.guillaume.manounou.Logon"
+            android:label="@string/loginActivityName" />
+        <activity
+            android:name="com.example.guillaume.manounou.Inscription"
+            android:label="Register" />
+        <activity
+            android:name="com.example.guillaume.manounou.FicheEnfant"
+            android:label="Fiche enfant" />
+        <activity
+            android:name="com.example.guillaume.manounou.Planning"
+            android:label="Planning" />
+        <activity
+            android:name="com.example.guillaume.manounou.HomeNounou"
+            android:label="HomeNounou" />
+        <activity
+            android:name="com.example.guillaume.manounou.SearchActivity"
+            android:label="Search" />
+    </application>
+
+</manifest>

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\guillaume\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\converter-gson\2.3.0\9e09011e9767bb76b5e27c9b8223476b93b14631\converter-gson-2.3.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="9e09011e9767bb76b5e27c9b8223476b93b14631">
+        <dex dex="D:\travail\PastequeOverflow\Mobile\MaNounou\app\build\intermediates\transforms\dex\debug\folders\1000\10\converter-gson-2.3.0_c31f18640a4857ce744f6d0de7ebc6da93d2c5c5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\travail\PastequeOverflow\Mobile\MaNounou\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="4fb8b5c37afc952251b17da494f45875f4f8fec5">
+        <dex dex="D:\travail\PastequeOverflow\Mobile\MaNounou\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_fa0372f82437a52a218c7af04e65b9d9e807525c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\travail\PastequeOverflow\Mobile\MaNounou\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\26.0.0-alpha1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="952944218ecedea1554a513dec0c14d570642843">
+        <dex dex="D:\travail\PastequeOverflow\Mobile\MaNounou\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-26.0.0-alpha1_7d40cd8cb68c00514032bb144c66e81b104bc8ec\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\travail\PastequeOverflow\Mobile\MaNounou\app\build\intermediates\exploded-aar\com.android.support\support-v4\26.0.0-alpha1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="D:\travail\PastequeOverflow\Mobile\MaNounou\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-26.0.0-alpha1_da530431befe8546a62b758382eb5f7449ac9aca\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\travail\PastequeOverflow\Mobile\MaNounou\app\build\intermediates\exploded-aar\com.android.support\support-compat\26.0.0-alpha1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="8df0e365e40beb151bc42dee20817721a6cab7b0">
+        <dex dex="D:\travail\PastequeOverflow\Mobile\MaNounou\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-26.0.0-alpha1_040355ffee379fa304211b3785f06ec4f6897b45\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\travail\PastequeOverflow\Mobile\MaNounou\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\26.0.0-alpha1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="2e92aa0163544a804a0b34f169ca61801770839a">
+        <dex dex="D:\travail\PastequeOverflow\Mobile\MaNounou\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-26.0.0-alpha1_fc8fa2f53ca86c1b9123d608ac5b1c13db30adc1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\travail\PastequeOverflow\Mobile\MaNounou\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\26.0.0-alpha1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="88246166d5afb106f532f6e6deae683c66b42c89">
+        <dex dex="D:\travail\PastequeOverflow\Mobile\MaNounou\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-26.0.0-alpha1_f6a7f96d128c0f2dcc394c99321eb4071690fdec\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\travail\PastequeOverflow\Mobile\MaNounou\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="48757d1ec2c2229a5e6e4ed75196e30304ebe57a">
+        <dex dex="D:\travail\PastequeOverflow\Mobile\MaNounou\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_f1592f6a7d132478f4ae1f94cae4b03ea9fffdfc\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\guillaume\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\converter-scalars\2.3.0\1eaa5762cb25c31b1905e2bfdfef70a2e0495ea6\converter-scalars-2.3.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="1eaa5762cb25c31b1905e2bfdfef70a2e0495ea6">
+        <dex dex="D:\travail\PastequeOverflow\Mobile\MaNounou\app\build\intermediates\transforms\dex\debug\folders\1000\10\converter-scalars-2.3.0_8e29867e43fcd57248cd6f0aeefe67a3589d42f8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\travail\PastequeOverflow\Mobile\MaNounou\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\26.0.0-alpha1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="47471eb19df288158b00b8d9cfa41bce7373f5cc">
+        <dex dex="D:\travail\PastequeOverflow\Mobile\MaNounou\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-26.0.0-alpha1_2c57a10e4983767b24a4925138f8267c6de4229a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\guillaume\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.7\751f548c85fa49f330cecbb1875893f971b33c4e\gson-2.7.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
+        <dex dex="D:\travail\PastequeOverflow\Mobile\MaNounou\app\build\intermediates\transforms\dex\debug\folders\1000\10\gson-2.7_d69324ee227de52c15eeff9aee65376096d47c7f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\travail\PastequeOverflow\Mobile\MaNounou\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\26.0.0-alpha1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="9935891f23923f39d002087085d9696568a9f657">
+        <dex dex="D:\travail\PastequeOverflow\Mobile\MaNounou\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-26.0.0-alpha1_ac061da8b7eb4055bf24f93d1a089c403ff38e7a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\guillaume\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\26.0.0-alpha1\support-annotations-26.0.0-alpha1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="023ee503b631f69511e335a061ea008f8da60f40">
+        <dex dex="D:\travail\PastequeOverflow\Mobile\MaNounou\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-26.0.0-alpha1_2f3c8f8ff7f309ed5231aee34e7aa323c071ca9a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\guillaume\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\retrofit\2.3.0\bcacde6a8ccedcc56c127403d26b76072fe6214d\retrofit-2.3.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="bcacde6a8ccedcc56c127403d26b76072fe6214d">
+        <dex dex="D:\travail\PastequeOverflow\Mobile\MaNounou\app\build\intermediates\transforms\dex\debug\folders\1000\10\retrofit-2.3.0_6d1cbd88da3ad4a5596e54a271d8f8a2505999f7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\travail\PastequeOverflow\Mobile\MaNounou\app\build\intermediates\exploded-aar\com.android.support\support-fragment\26.0.0-alpha1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="18d31838aa4fcc768a8a0516e22cc13b94655d89">
+        <dex dex="D:\travail\PastequeOverflow\Mobile\MaNounou\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-26.0.0-alpha1_0d73f32b53f7cca78f98636bd06f34e03aee0ea8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\guillaume\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.13.0\a9283170b7305c8d92d25aff02a6ab7e45d06cbe\okio-1.13.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="a9283170b7305c8d92d25aff02a6ab7e45d06cbe">
+        <dex dex="D:\travail\PastequeOverflow\Mobile\MaNounou\app\build\intermediates\transforms\dex\debug\folders\1000\10\okio-1.13.0_014e19d50a52bfec2096b668426ea21069c826da\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\travail\PastequeOverflow\Mobile\MaNounou\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\26.0.0-alpha1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="fcd01fd11233459f546c437ec927e9b61bf7caf1">
+        <dex dex="D:\travail\PastequeOverflow\Mobile\MaNounou\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-26.0.0-alpha1_3763cec578dd86961e152f0213f7d4cf84211f2e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\guillaume\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.8.0\5a11f020cce2d11eb71ba916700600e18c4547e7\okhttp-3.8.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="5a11f020cce2d11eb71ba916700600e18c4547e7">
+        <dex dex="D:\travail\PastequeOverflow\Mobile\MaNounou\app\build\intermediates\transforms\dex\debug\folders\1000\10\okhttp-3.8.0_085d428b99a1f6d87719b5a290fc9923330998cd\classes.dex" />
+    </item>
+
+</items>
