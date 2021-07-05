@@ -1,7 +1,0 @@
-#Thu Jul 01 09:57:06 CEST 2021
-base.0=D\:\\travail\\PastequeOverflow\\Mobile\\MaNounou\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_f1592f6a7d132478f4ae1f94cae4b03ea9fffdfc
-renamed.1=classes.dex
-renamed.0=classes2.dex
-file.1=D\:\\travail\\PastequeOverflow\\Mobile\\MaNounou\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_fa0372f82437a52a218c7af04e65b9d9e807525c\\classes.dex
-base.1=D\:\\travail\\PastequeOverflow\\Mobile\\MaNounou\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_fa0372f82437a52a218c7af04e65b9d9e807525c
-file.0=D\:\\travail\\PastequeOverflow\\Mobile\\MaNounou\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_f1592f6a7d132478f4ae1f94cae4b03ea9fffdfc\\classes.dex
