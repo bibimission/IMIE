@@ -1,0 +1,23 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.guillaume.memorygolo.CardFragment">
+
+    <!--
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/cardButton"
+        android:background="@drawable/verso"
+        android:visibility="gone"/>
+        -->
+
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/cardImage"
+        android:onClick="onCardClick"
+        />
+
+</FrameLayout>
