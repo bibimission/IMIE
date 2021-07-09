@@ -3,6 +3,7 @@ package com.example.guillaume.memorygolo;
 import android.app.FragmentManager;
 import android.app.FragmentTransaction;
 import android.content.Intent;
+import android.content.res.Resources;
 import android.media.MediaPlayer;
 import android.net.Uri;
 import android.os.CountDownTimer;
@@ -115,8 +116,8 @@ public class GameActivity extends AppCompatActivity implements CardFragment.OnFr
         int identity = view.getId();
         // Si on est pas en attente des cartes déjà retournées
         if(!loading) {
-            // Si la carte n'est pas celle qui est déjà retournée
-            if (identity != currentSelectedCardId) {
+            // Si la carte n'est pas déjà retournée
+            if(view.getBackground().getConstantState().equals(getResources().getDrawable(R.drawable.verso, getTheme()).getConstantState())){
                 // Si on a déjà une carte de retournée
                 if (!currentSelectedCardType.isEmpty()) {
                     showCardFace(view, true);
